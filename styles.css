@@ -173,9 +173,9 @@ body {
 .addBookForm {
     display: flex;
     flex-direction: column;
-    border: 2px solid #605f5f;
+    border: 5px solid #979595;
     background: rgb(222, 223, 223);
-    border-radius: 5px;
+    border-radius: 15px;
     color: black;
     min-width: 350px;
     max-height: 40vh;
@@ -183,7 +183,7 @@ body {
 }
 
 .formTitle {
-    background: #605f5f;
+    background: #ffffff;
     padding: 20px;
     color: black;
     font-size: 24px;
@@ -224,16 +224,17 @@ body {
 }
 
 .addBooktoLibrarySubmitButton {
-    background: rgb(166, 218, 143);
+    background: rgb(38 38 35);
     width: 100%;
     border: none;
-    color: black;;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+    cursor: pointer
 }
+
 

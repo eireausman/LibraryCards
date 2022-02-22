@@ -208,7 +208,6 @@
 
              newDeleteMeWrapper.addEventListener('click', completeDeletionSteps);
             
-
         }
 
        
@@ -256,12 +255,14 @@ addNewBookToLibrarySubmitButton.addEventListener('click', function(e) {
         addBookToLibrary(bookTitle, bookAuthor, bookPages, bookISBN, readIt);
         createLibraryTableRow(bookTitle, bookAuthor, bookPages, bookISBN, readIt);
         closeFormModal()
-            
         
+     
     }
 
 
 });
+
+  
 
 
 
@@ -328,3 +329,10 @@ function completeDeletionSteps(e) {
     }
 
 
+
+
+
+    const lastCard = document.querySelector(".list").lastElementChild;
+    console.log(lastCard);
+    // const LastCard1 = lastCard.lastElementChild;
+        lastCard.scrollIntoView();
