@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <header class="header">
+        <h3 class="headingText">
+            Your Library Record
+        </h3>
+        
+        <label for="addNewBookToLibrary" alt="Add a new book to the library" class="addNewBookToLibrary">Add a new book</label>
+            <input type="image" src="images/book.svg" alt="Add a new book to the library" class="addNewBookToLibrary" id="addNewBookToLibrary">
+        
+    </header>   
+
+    <div class="container">
+        
+    
+  
+    <div class="list">
+    
+    </div>
+
+    
+<div class="formContainer">
+   
+    
+    <form action="#" method="" class="addBookForm">
+    <legend class="formTitle">
+        Enter your new book details
+    </legend>
+
+        
+        <div class="formRow">
+            <label for="bookTitle" class="formLabel">Title</label>
+            <input type="text" required name="bookTitle" id="bookTitle" class="formInputBox" placeholder="Great Short Stories"> 
+        </div>
+        <div class="formRow">
+            <label for="bookAuthor" class="formLabel">Author</label>    
+            <input type="text" required name="bookAuthor" id="bookAuthor" class="formInputBox" placeholder="Joe Bloggs">
+        </div>
+        <div class="formRow">
+            <label for="bookPages" class="formLabel">Number of Pages</label>    
+            <input type="text" required name="bookPages" id="bookPages" class="formInputBox" placeholder="e.g. 210">
+        </div>
+        <div class="formRow">
+            <label for="bookISBN" class="formLabel">ISBN for this Book</label>    
+            <input type="text" required name="bookPages" id="bookISBN" class="formInputBox" placeholder="10 digit ISBN">
+        </div>
+        <div class="formRow">
+            <input type="submit" class="addBooktoLibrarySubmitButton">
+        </div>
+    </form>
+    <button class="closeNewBookFormModal" alt="Close this modal Window">X</button>
+</div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
