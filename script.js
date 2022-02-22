@@ -331,8 +331,3 @@ function completeDeletionSteps(e) {
 
 
 
-
-    const lastCard = document.querySelector(".list").lastElementChild;
-    console.log(lastCard);
-    // const LastCard1 = lastCard.lastElementChild;
-        lastCard.scrollIntoView();
